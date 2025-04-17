@@ -15,9 +15,17 @@ El artefacto se llama Actividad2, pertenece al groupId ar.edu.udeci.pv, y su ver
 
 La aplicación permite recibir dos argumentos por línea de comandos:
 
-- -i o --input: Archivo de entrada (obligatorio).
-- -o o --output: Archivo de salida (opcional).
+App.java
+Utiliza commons-cli para procesar dos argumentos:
 
+-n o --nombre: requerido
+
+-e o --edad: opcional
+
+Log4jEjemplo.java
+Ejemplo de cómo utilizar log4j para registrar mensajes de distintos niveles:
+
+DEBUG, INFO, WARN, ERROR, FATAL
 Ejemplo de ejecución:
 
 ```bash
